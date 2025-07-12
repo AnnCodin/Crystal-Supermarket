@@ -84,3 +84,8 @@ nav ul li a:hover{
     cursor: pointer;
     background-color: #f4e8a1;
 }
+
+@media (max-width: 600px) {
+    .left, .main, .right
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
