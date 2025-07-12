@@ -36,6 +36,10 @@ nav ul li a{
     font-weight: bolder;
 }
 
+nav ul li a:hover{
+    color: #89a000;
+}
+
 .hero_heading{
     color: black;
     text-transform: uppercase;
@@ -61,12 +65,22 @@ nav ul li a{
     font-size: 1rem;
 }
 
+.hero_button{
+    border: none;
+    margin: 0px 60px;
+}
+
 .hero_button a{
     display: inline-block;
     text-decoration: none;
     color: white;
     background: #F5D300;
-    padding: 10px 15px;
+    padding: 15px 15px;
     border-radius: 4px;
     font-weight: 900;
+}
+
+.hero_button:hover{
+    cursor: pointer;
+    background-color: #f4e8a1;
 }
