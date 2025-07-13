@@ -8,7 +8,7 @@
 .header{
     overflow: hidden;
     background-color: #D9D9D9;
-    padding: 10px 100px;
+    padding: 1rem 4rem;
 }
 
 nav{
@@ -19,13 +19,13 @@ nav{
 }
 
 nav img{
-    width: 150px;
+    width: 10rem;
 }
 
 nav ul li{
     display: inline-block;
     list-style: none;
-    margin: 10px 20px;
+    margin: 1rem 1.3rem;
 }
 
 nav ul li a{
@@ -43,31 +43,31 @@ nav ul li a:hover{
 .hero_heading{
     color: black;
     text-transform: uppercase;
-    padding: 50px 60px 15px;
-    font-size: 20px;
+    padding: 4rem 3.3rem 0.8rem;
+    font-size: 1.8rem;
 }
 
 .hero_images{
     display: flex;
     justify-content: center;
-    padding: 0px 60px 10px;
+    padding: 0 5rem 1rem;
 }
 
 .hero_images img{
-    width: 450px;
+    width: 28rem;
     align-items: center;
-    margin: 15px
+    margin: 1rem;
 }
 
 .hero_paragraph{
-    padding: 10px 60px 30px;
-    line-height: 28px;
+    padding: 0 4rem 0.6rem 3.3rem;
+    line-height: 2rem;
     font-size: 1rem;
 }
 
 .hero_button{
     border: none;
-    margin: 0px 60px;
+    margin: 2rem 3.3rem 4rem;
 }
 
 .hero_button a{
@@ -75,17 +75,44 @@ nav ul li a:hover{
     text-decoration: none;
     color: white;
     background: #F5D300;
-    padding: 15px 15px;
-    border-radius: 4px;
+    padding: 1rem;
+    border-radius: 0.3rem;
     font-weight: 900;
 }
 
 .hero_button:hover{
     cursor: pointer;
-    background-color: #f4e8a1;
 }
 
-@media (max-width: 600px) {
-    .left, .main, .right
-    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
-  }
+.content_area1{
+    padding: 5rem 25rem;
+    margin: auto;
+    line-height: 2.3rem;
+    font-size: 1.6rem;
+    text-align: center;
+    color: white;
+    background-color: #3D600A;
+}
+
+.content_area2{
+    text-transform: uppercase;
+    font-size: larger;
+    font-weight: 600;
+    margin: 5rem 3.3rem 1.5rem;
+}
+
+.content_area3{
+    padding: 0.5rem 3.5rem 1.5rem;
+    line-height: 2rem;
+    font-size: 1rem; 
+    font-style: italic;
+}
+
+.list ul{
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    margin: 0 3rem;
+    line-height: 2rem;
+    font-size: 1rem; 
+    font-weight: 700;
+}
