@@ -166,3 +166,28 @@ nav ul li a:hover{
 textarea{
     resize: none;
 }
+
+.footer{
+    text-align: center;
+    font-weight: 600;
+    margin: 4rem 3.3rem 1.5rem;
+}
+
+.footer h4{
+    font-size: 1.7rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
+
+.footer img{
+    align-items: center;
+    width: 2rem;
+    align-items: center;
+    margin: 0.5rem 0 2.5rem 0.6rem;
+}
+
+.footer p{
+    font-weight: 200;
+    font-size: 1.1rem;
+    margin: 2rem;
+}
