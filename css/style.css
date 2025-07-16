@@ -179,11 +179,15 @@ textarea{
     padding-bottom: 1rem;
 }
 
-.footer img{
-    align-items: center;
+.social_icons img{
     width: 2rem;
     align-items: center;
-    margin: 0.5rem 0 2.5rem 0.6rem;
+    margin: 1rem 0.3rem 2rem;
+}
+
+.social_icons img:hover{
+    cursor: pointer;
+    background-color: #89a000;
 }
 
 .footer p{
